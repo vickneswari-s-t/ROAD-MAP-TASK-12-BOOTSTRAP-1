@@ -8,7 +8,7 @@
 
 body{
   
-background-color:beige;
+/* background-color:beige; */
 width:100vw;
 overflow:hidden;
 }
@@ -33,19 +33,13 @@ overflow:hidden;
   height:85vh;
 }
 
-.main-container.box-1{
+.main-container.box1{
   height:500px;
-  background-color: palevioletred;
+  background-color:darkslategray ;
   border-radius:20px;
   width:300px;
 }
 
-.head{
-  color:white;
-  margin: left 30com;
-  font-style:normal;
-
-}
 
 
 .search-box{
@@ -55,12 +49,16 @@ overflow:hidden;
 
 
 .search{
-  margin:50px 0;
-  width:100%;
+  width:650px;
+  height:40px;
+  background-color: #353535;
+  margin: 0 auto;
+  display:block;
+  border-radius:6px;
 }
 
 
-.boxes{
+.cards{
   height:200px;
   display:flex;
   justify-content:space-around;
@@ -68,25 +66,18 @@ overflow:hidden;
 
 
 
-.boxes.box{
+.cards.card{
   width:30%;
   height:170px;
   background-color:rgb(black);
   border-radius:12px;
 }
 
-
-
-
-
-
-
-
 .footer{
   height:190px;
-  margin-top:5em;
-  margin-left:20em;
-  background-color: whitesmoke;
+  /* margin-top:5em;
+  margin-left:20em; */
+  background: color #353535;
   border-radius:20px;
   width:97%;
   margin:15px auto;
