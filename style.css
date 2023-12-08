@@ -15,12 +15,22 @@ overflow:hidden;
 
 .navbar-menu{
   height:85px;
-  background-color:gray;
+  background-color:rgb(55, 51, 82);
 
 }
+
+.navbar-menu i{
+  font-size: 50px;
+  margin:20px 20px;
+  color:white;
+}
+.navbar-menu p{
+  font-size: 25px;
+  
+ }
 .main-container{
   background-color: cadetblue;
-  height:88vh;
+  height:85vh;
 }
 
 .main-container.box-1{
@@ -29,12 +39,7 @@ overflow:hidden;
   border-radius:20px;
   width:300px;
 }
-.main-container.box-2{
-  height:500px;
-  background-color:darkgray;
-  border-radius:20px;
-  width:300px;
-}
+
 .head{
   color:white;
   margin: left 30com;
@@ -43,16 +48,32 @@ overflow:hidden;
 }
 
 
+.search-box{
+  margin:50px 0;
+  width:100%;
+}
+
+
+.search{
+  margin:50px 0;
+  width:100%;
+}
+
+
+.boxes{
+  height:200px;
+  display:flex;
+  justify-content:space-around;
+}
 
 
 
-
-
-
-
-
-
-
+.boxes.box{
+  width:30%;
+  height:170px;
+  background-color:rgb(black);
+  border-radius:12px;
+}
 
 
 
